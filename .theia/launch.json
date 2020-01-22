@@ -7,11 +7,11 @@
         "type": "lldb",
         "request": "launch",
         "name": "Debug Rust",
-        "program": "${workspaceRoot}/target/debug/${workspaceRootFolderName}",
+        "program": "${workspaceRoot}/target/debug/Gitpod-Rust-Example",
         "args": [],
         "cwd": "${workspaceRoot}",
         "sourceLanguages": ["rust"],
-        "terminal": "integrated"
+        "terminal": "console"
     }
   ]
 }
